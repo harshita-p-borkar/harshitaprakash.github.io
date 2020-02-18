@@ -1,0 +1,645 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing : border-box;
+            box-sizing : border-box;
+}
+
+html {
+    background-color: #fff;
+    /* color: rgb(86, 86, 86); */
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300px;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    scroll-behavior: smooth;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+/* ---------------------------------------------------- */
+/* --------------- SECTION RPA ------------------------ */
+/* ---------------------------------------------------- */
+
+/* --------------------------------------- main section  ---------------------------------------------------- */
+/* ---------------------------------------------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------------------------------------------- */
+
+.main_header {
+    position: absolute;
+    width: 1361px;
+    height: 70px;
+    left: 0px;
+    top: 0px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.1);
+}
+
+.name_logo {
+    position: absolute;
+    width: 51px;
+    height: 59px;
+    left: 38px;
+    top: 8px;
+}
+
+.my_name_logo {
+    position: absolute;
+    /* width: 302px; */
+    height: 63px;
+    left:100px;
+    top: 4px;
+    /* font-style: normal; */
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 2px;
+    color: #00579F;
+}
+
+.navigation_header {
+    position: absolute;
+    font-weight: 600;
+    width: 201px;
+    height: 40px;
+    left: 657px;
+    top: 15px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 2px;
+    color: #00579F;
+}
+
+.navigation_header a {
+    padding-left: 40px;
+    text-decoration: none;
+    color: #00579F;
+    font-weight: 600;
+}
+
+.welcome {
+    position: absolute;
+    width: 301px;
+    height: 16px;
+    left: 100px;
+    top: 228px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 3px;
+    color: #515151;
+}
+
+.my_name {
+    text-transform: uppercase;
+    position: absolute;
+    width: 470px;
+    height: 210px;
+    left: 98px;
+    top: 194px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 75px;
+    line-height: 88px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.05em;
+    color: #FAA61A;
+}
+
+.tag_line {
+    position: absolute;
+    width: 472px;
+    height: 47px;
+    left: 100px;
+    top: 334px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 2px;
+    color: #515151;
+}
+
+.sub_description {
+    position: absolute;
+    width: 434px;
+    height: 109px;
+    left: 102px;
+    top: 388px;
+    font-size: 14px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 1px;
+    color: #3a3a3a;
+}
+
+.hero_image {
+    position: absolute;
+    width: 864px;
+    height: 631px;
+    left: 578px;
+    top: 55px;
+}
+
+/* -------------------------- ABOUT ------------------------------- */
+.about_me_header {
+    position: absolute;
+    width: 364px;
+    height: 210px;
+    left: 102px;
+    top: 636px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 59px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.05em;
+    color: #00579F;
+}
+
+.about_me_division {
+    position: absolute;
+    width: 80%;
+    margin-left: 10%;
+    height: 70%;
+    top: 800px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 22px rgba(0, 0, 0, 0.27);
+}
+
+.column {
+    float: left;
+    width: 50%;
+    }
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.about_me_main_content {
+    padding: 12%;
+}
+
+.about_me_main_content p{
+    margin-bottom: 4%;
+}
+
+.about_me_content {
+    left: 100px;
+    top: 100px;
+    margin-bottom: 8%;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 1px;
+    color: #3a3a3a;
+}
+
+.about_me_image {
+    position: absolute;
+    width: 485px;
+    height: 409px;
+}
+
+.about_me_image_division {
+    padding: 1%;
+}
+
+/* ------------------------------------------------------------ */
+.rpa_image {
+    position: absolute;
+    width: 689px;
+    height: 415px;
+    left: 70px;
+    top: 1409px;
+}
+
+.rpa_title {
+    position: absolute;
+    width: 479px;
+    height: 92px;
+    left: 777px;
+    top: 1441px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 46px;
+    line-height: 54px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+    color: #515151;
+}
+
+.rpa_content {
+    position: absolute;
+    width: 438px;
+    height: 109px;
+    left: 777px;
+    top: 1582px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 1px;
+    color: #515151;
+}
+
+.show_more_button_right {
+    position: absolute;
+    width: 152px;
+    height: 47px;
+    left: 779px;
+    top: 1740px;
+    background: #FAA61A;
+    border-radius: 50px;
+    border: 0;
+}
+.show_more_right {
+    font-size: 16px;
+    align-items: center;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+}
+
+/* --------------------------------------------------------------- */
+.chatbot_title {
+    position: absolute;
+    width: 479px;
+    height: 92px;
+    left: 143px;
+    top: 2034px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 46px;
+    line-height: 54px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+    color: #515151;
+}
+
+.chatbot_content {
+    position: absolute;
+    width: 438px;
+    height: 109px;
+    left: 145px;
+    top: 2175px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 1px;
+    color: #515151;
+}
+
+.show_more_button_left {
+    position: absolute;
+    width: 152px;
+    height: 47px;
+    left: 145px;
+    top: 2333px;
+    background: #FAA61A;
+    border-radius: 50px;
+    border: none;
+}
+
+.show_more_left {
+    font-size: 16px;
+    align-items: center;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+}
+
+.chatbot_image {
+    position: absolute;
+    width: 850px;
+    height: 561px;
+    left: 510px;
+    top: 1905px;
+}
+
+/* ------------------------------------------------------------------------------- */
+
+.cec_image {
+    position: absolute;
+    width: 744px;
+    height: 482px;
+    left: 49px;
+    top: 2589px;
+}
+
+.cec_title {
+    position: absolute;
+    width: 479px;
+    height: 92px;
+    left: 819px;
+    top: 2667px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 46px;
+    line-height: 54px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+    color: #515151;
+}
+
+.cec_content {
+    position: absolute;
+    width: 438px;
+    height: 109px;
+    left: 819px;
+    top: 2812px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.13em;
+    color: #515151;
+}
+
+.show_more_button_right_cec {
+    position: absolute;
+    width: 152px;
+    height: 47px;
+    left: 821px;
+    top: 2953px;
+    background: #FAA61A;
+    border-radius: 50px;
+    border: 0;
+}
+
+.show_more_right_cec {
+    font-size: 16px;
+    align-items: center;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+}
+
+/* ------------------------------------------------------------------------------- */
+
+
+.skills_header {
+    position: absolute;
+    width: 547px;
+    height: 57px;
+    left: 86px;
+    top: 3224px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 59px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.05em;
+    color: #00579F;
+}
+
+.column1 {
+    position: absolute;
+    width: 525px;
+    height: 456px;
+    left: 96px;
+    top: 3307px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 22px rgba(0, 0, 0, 0.27);
+}
+
+.column2 {
+    position: absolute;
+    width: 525px;
+    height: 456px;
+    left: 653px;
+    top: 3307px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 22px rgba(0, 0, 0, 0.27);
+}
+
+.wireframe_image {
+    position: absolute;
+    width: 124px;
+    height: 123px;
+    left: 50px;
+    top: 25px;
+}
+
+.prototyping_image {
+    position: absolute;
+    width: 124px;
+    height: 123px;
+    left: 205px;
+    top: 25px;
+}
+
+.html_image {
+    position: absolute;
+    width: 124px;
+    height: 123px;
+    left: 358px;
+    top: 25px;
+}
+
+.python_image {
+    position: absolute;
+    width: 124px;
+    height: 126px;
+    left: 50px;
+    top: 175px;
+}
+
+.figma_image {
+    position: absolute;
+    width: 124px;
+    height: 126px;
+    left: 205px;
+    top: 175px;
+}
+
+.illustrator_image {
+    position: absolute;
+    width: 124px;
+    height: 126px;
+    left: 358px;
+    top: 175px;
+}
+
+.uipath_image {
+    position: absolute;
+    width: 124px;
+    height: 126px;
+    left: 50px;
+    top: 320px;
+}
+
+.idf_hci_image {
+    position: absolute;
+    width: 124px;
+    height: 123px;
+    left: 50px;
+    top: 65px;
+}
+
+.idf_ux_image {
+    position: absolute;
+    width: 148px;
+    /* height: 123px; */
+    left: 197px;
+    top: 56px;
+}
+
+.idf_wd_image {
+    position: absolute;
+    width: 122px;
+    height: 123px;
+    left: 358px;
+    top: 70px;
+}
+
+.rpa_dev_image {
+    position: absolute;
+    width: 141px;
+    /* height: 126px; */
+    left: 121px;
+    top: 208px;
+}
+
+.rpa_sap_image {
+    position: absolute;
+    width: 124px;
+    height: 126px;
+    left: 282px;
+    top: 216px;
+}
+
+/* --------------------------------------------------------------- */
+
+.contact_me_header {
+    position: absolute;
+    width: 297px;
+    height: 69px;
+    left: 86px;
+    top: 3836px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 59px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.05em;
+    color: #00579F;
+}
+
+.user_name {
+    position: absolute;
+    width: 376px;
+    height: 52px;
+    left: 721px;
+    top: 4032px;
+    background: #FFFFFF;
+    border: 1px solid #E2DFDF;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+
+.email_id {
+    position: absolute;
+    width: 376px;
+    height: 52px;
+    left: 721px;
+    top: 4107px;
+    background: #FFFFFF;
+    border: 1px solid #E2DFDF;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+
+
+.user_image {
+    position: absolute;
+    width: 345px;
+    height: 345px;
+    left: 154px;
+    top: 3970px;
+    margin-bottom: 30px;
+}
+
+.my_logo_image {
+    position: absolute;
+    width: 120px;
+    height: 139px;
+    left: 625px;
+    top: 4082px;
+}
+
+.emial_id {
+    position: absolute;
+    width: 412px;
+    height: 37px;
+    left: 795px;
+    top: 4063px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.13em;
+    color: #515151;
+}
+
+.phone_number {
+    position: absolute;
+    width: 251px;
+    height: 37px;
+    left: 863px;
+    top: 4115px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.13em;
+    color: #515151;
+}
